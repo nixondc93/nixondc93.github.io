@@ -1,1 +1,35 @@
-/* custom styles */
+body{
+  width: 100%;
+}
+
+nav{
+
+}
+
+
+#page-wrapper{
+ margin-top: -25px;
+
+}
+#header{
+  width: 100%;
+  background-image: url(http://img.wallpaperfolder.com/f/43A6A527AB18/874x573px-appalachian-mountains-255325.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.clearfix{
+
+}
+
+
+
+
+
+
+.myphoto{
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  float: left;
+}
