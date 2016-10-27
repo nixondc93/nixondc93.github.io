@@ -5,7 +5,7 @@ body{
 nav{
 
   margin: 120px auto 0;
-  /*display: flex;*/
+
 }
 
 nav a{
@@ -19,6 +19,22 @@ img{
   /*height: 600px; */
 }
 
+form{
+  width: 500px;
+  height: 500px;
+  background-color: #666;
+  display: inline-block;
+
+}
+
+
+
+footer{
+  height: 100px;
+  background-color: #666;
+  margin: 20px 0 0 0;
+}
+
 .section{
   text-align: center;
   margin: 0 10%;
@@ -26,7 +42,7 @@ img{
 }
 
 .section img{
-  
+
 }
 
 
@@ -38,6 +54,13 @@ img{
   font-size: 60px;
 }
 
+#menu{
+  height: 20px;
+  width: 20px;
+  padding: 30px 0 0 15px;
+  /*float: left;*/
+  position: fixed;
+}
 #page-wrapper{
   width: 100%;
   margin-top: -50px;
@@ -58,7 +81,21 @@ img{
   font-size: 40px;
 }
 
+#contactme{
 
+}
+
+#name{
+
+}
+
+#email{
+
+}
+
+#message{
+
+}
 
 
 
