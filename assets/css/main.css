@@ -27,6 +27,7 @@ form{
 
 }
 
+
 footer{
   height: 100px;
   background-color: #666;
@@ -77,6 +78,11 @@ footer{
 #aboutme h2{
   padding-top: 20px;
   font-size: 40px;
+}
+
+#myexperience a{
+    text-decoration: none;
+    display: inline-block;
 }
 
 #contactme{
