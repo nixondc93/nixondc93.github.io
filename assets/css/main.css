@@ -71,6 +71,12 @@ footer{
 .downArrow{
   margin: 30px 0 30px 0;
   height: 60px;
+
+}
+.icon{
+  height: 50px;
+  width: 50px;
+  margin: 1%;
 }
 
 .learnMore{
