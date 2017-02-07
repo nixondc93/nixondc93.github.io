@@ -1,9 +1,10 @@
 body{
   color: #333;
   background-color:#fff;
+  font-family: 'Droid Serif', serif;
 }
 .nav{
-  margin: 10% auto 0;
+  margin: 8% auto 0;
   background-color: transparent;
   box-shadow: none;
 }
@@ -95,9 +96,11 @@ footer{
   #header h1{
     font-size: 42px;
   }
-
-  /*.parallax {
-    display: none;
-  }*/
-
+  .divPic{
+    width: auto;
+    overflow: hidden;
+  }
+  nav a{
+    font-size: 18px;
+  }
 }
