@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Derry's Portfolio</title>
+    <title>Derry Nixon's Portfolio</title>
     <!-- meta -->
     <meta charset="utf-8" />
     <meta name="description" content="Personal Site">
@@ -11,24 +11,19 @@
     <!-- mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- styles -->
-
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.css">
     <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
 </head>
 
 <body>
     <div id="page-wrapper">
         <a class="imgWrapper" href="#page-wrapper"><img class="arrow" src="./assets/imgs/up-arrow.svg"></a>
-        <div id="header">
-
+        <div id="header" class="section">
             <h1> Hello world, I'm Derry. </h1>
             <nav class="nav row">
                 <a class="col m2 s12 offset-m2"id="about" href="#aboutme">About Me</a>
@@ -36,28 +31,29 @@
                 <a class="col m2 s12" id="projects" href="#myprojects">Projects</a>
                 <a class="col m2 s12" id="contact" href="#contactme">Contact</a>
             </nav>
-
         </div>
         <div id="aboutme">
             <div class="container row center-align">
-                <h3>About Me </h3>
-                <div class="col m8">
-                    <p>I am Derry Nixon, a full-stack web developer with a passion for problem-solving. I enjoy the process of deconstructing seemingly complex problems. Breaking the problem into smaller more approachable subproblems, finding solutions one by one algorithmically.
-                    The implementation of problem breakdown is a big part of why I'm in software development. I am always working to continually grow and learn new skills as a software developer. I know I have much to learn, and I do my best to stay humble about that. I'm looking to join a passionate team working on innovative products.</p>
-                    <p>When I'm not programming, I love exploring new places whether it's a new restaurant down the street or traveling to a city I've never been to before. I also love to learn, and I'm always challenging myself to pick up a new skill. </p>
-                </div>
-                <div class="col m4">
-                    <img class="profilePic" src="./assets/imgs/headshots_05.jpg" alt="">
-                </div>
+              <h3>About Me </h3>
+              <div class="col m8">
+                  <p>I am Derry Nixon, a full-stack web developer with a passion for problem-solving. I enjoy the process of deconstructing seemingly complex problems. Breaking the problem into smaller more approachable subproblems, finding solutions one by one algorithmically. The implementation of problem breakdown is a big part of why I'm in software development. I am always working to continually grow and learn new skills as a software developer. I know I have much to learn, and I do my best to stay humble about that. I'm looking to join a passionate team working on innovative products.</p>
+                  <p>When I'm not programming, I love exploring new places whether it's a new restaurant down the street or traveling to a city I've never been to before. I also love to learn, and I'm always challenging myself to pick up a new skill. </p>
+              </div>
+              <div class="col m4">
+                  <img class="profilePic" src="./assets/imgs/headshots_05.jpg" alt="">
+              </div>
             </div>
         </div>
-        <img src="./assets/imgs/bckgrd.jpg" alt="">
-        <div id="myexperience">
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="./assets/imgs/smabackground.jpg" alt="">
+          </div>
+        </div>
+        <div id="myexperience" class="section">
             <div class="container center-align">
                 <h3>Experience</h3>
                 <p>I recently graduated from General Assembly's Web development immersive program. This is a three-month program where we are bombarded with new technologies. We covered JavaScript, Ruby, Node.js, Ruby on Rails, jQuery, and I took it upon myself to learn React outside of class. For my final project, I used React on Rails to implement a search engine for endangered wildlife species. My search engine allows you to search over 4000 different species via common name or scientific name. Even in a fast-paced program, I was able to learn an additional library outside of class, and I successfully implemented that library in a full-stack application. I look forward to continuing my learning and growth in web development. </p>
                 <h5 class="learnMore">Want to Learn More?</h5>
-
                 <img class="downArrow" src="./assets/imgs/download-arrow.svg" alt="">
                 <div class="row">
                   <a href="https://github.com/sf-wdi-33"><img class="icon" src="./assets/imgs/github-sign.svg" alt=""></a>
@@ -66,19 +62,23 @@
                 <a href="./assets/imgs/Resume2017.pdf" target="_blank"><button class="btn" type="button" name="button">View my Résumé</button></a>
             </div>
         </div>
-        <img src="http://worldlightmedia.com/wp-content/uploads/2016/01/InternshipProgram.png">
-        <div id="myprojects">
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="http://worldlightmedia.com/wp-content/uploads/2016/01/InternshipProgram.png">
+          </div>
+        </div>
+        <div id="myprojects" class="section">
             <div class="container center-align">
               <h3>Projects</h3>
               <div class="row">
                 <div class="card blue-grey darken-1 col m5">
-                    <div class="card-content white-text">
-                        <span class="card-title">Wildlife is Life</span>
-                        <p>Search engine for endangered animals. Users can search common names or scientific names of endangered species. Built with React on Rails, Material-UI, and PostgreSQL. I'm currently working on deployment.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="https://github.com/nixondc93/wildlife-is-life">Github Repo</a>
-                    </div>
+                  <div class="card-content white-text">
+                    <span class="card-title">Wildlife is Life</span>
+                    <p>Search engine for endangered animals. Users can search common names or scientific names of endangered species. Built with React on Rails, Material-UI, and PostgreSQL. I'm currently working on deployment.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://github.com/nixondc93/wildlife-is-life">Github Repo</a>
+                  </div>
                 </div>
                 <div class="col m2"></div>
                 <div class="card blue-grey darken-1 col m5">
@@ -95,8 +95,8 @@
             <div class="row">
               <div class="card blue-grey darken-1 col m5">
                   <div class="card-content white-text">
-                      <span class="card-title">Wanderlust</span>
-                      <p>This was a group project, and we used Ruby on Rails to create this application. Users can add posts to city pages and view other peoples posts as well as leave comments on other user's posts. </p>
+                    <span class="card-title">Wanderlust</span>
+                    <p>This was a group project, and we used Ruby on Rails to create this application. Users can add posts to city pages and view other peoples posts as well as leave comments on other user's posts. </p>
                   </div>
                   <div class="card-action">
                       <a href="https://github.com/nixondc93/project_wanderlust">Github Repo</a>
@@ -106,8 +106,8 @@
               <div class="col m2"></div>
               <div class="card blue-grey darken-1 col m5">
                   <div class="card-content white-text">
-                      <span class="card-title">Mapp</span>
-                      <p>This was a group project. We used Ruby on Rails to build this application. This app allows users to find cities and create itineraries of things todo in those cities.</p>
+                    <span class="card-title">Mapp</span>
+                    <p>This was a group project. We used Ruby on Rails to build this application. This app allows users to find cities and create itineraries of things todo in those cities.</p>
                   </div>
                   <div class="card-action">
                       <a href="https://github.com/caseyjoneal/mapp">Github Repo</a>
@@ -117,12 +117,17 @@
           </div>
           </div>
         </div>
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="./assets/imgs/sunsetlr.jpg" alt="">
+          </div>
+        </div>
     <div id="contact">
         <div id="contactme" class="container row center-align">
-            <h3>Contact Me</h3>
-            <h5>Interested in reaching out? Awesome!</h5>
-            <img class="myphoto" src="./assets/imgs/headshots_07.jpg" alt="">
-            <button type="button" name="button" class="btn  sayHello" onclick="window.location.href='mailto:nixondc93@gmail.com'">SAY HELLO!</button>
+          <h3>Contact Me</h3>
+          <h5>Interested in reaching out? Awesome!</h5>
+          <img class="myphoto" src="./assets/imgs/headshots_07.jpg" alt="">
+          <button type="button" name="button" class="btn  sayHello" onclick="window.location.href='mailto:nixondc93@gmail.com'">SAY HELLO!</button>
         </div>
     </div>
     </div>
